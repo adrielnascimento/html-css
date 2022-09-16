@@ -7,22 +7,33 @@
     <title>centralização</title>
     <style>
         #conteiner{
+            height: 95vh;
+            background-size: 100% 100%; 
+            background-image: url('imagens/target001.png');
             position: relative;
             padding: 10px;
-            height: 400px;
-            color: purple;
+            background-color: purple;
+            
         }
 
-        #absolute{
+        #conteudo{
+            background-size: 100% 100%;
+            background-image: url('imagens/target001.png');
             position: absolute;
             height: 200px;
-            color: yellow;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50% ;
+
+            transform: translate(-50% -50%);
         }
     </style>
 </head>
 <body>
     <section id="conteiner">
-        <article id="absolute">
+        <article id="conteudo">
 
         </article>
     </section>
