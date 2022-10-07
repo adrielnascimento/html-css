@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+           background-image:url("imagens/images.jpg") ;
+           background-size:cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+        }
+        header{
+            max-width: 700px;
+            margin:auto;
+        }
+        header > p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 28px;
+            color: white;
+        }
+        header h1{
+            text-decoration: underline;
+            text-align: center;
+            font-size: 2.5em;
+            margin-top:20px;
+            margin-bottom:30px;
+            color: rgb(129, 107, 107);
+        }
+        nav{
+            padding-bottom: 30px;
+            padding: 10px;
+            margin-bottom:30px ;
+            max-width: 700px;
+            margin:auto;
+        }
+        nav a{
+            padding: 20px;
+            text-decoration:none;
+            color: rgba(0, 0, 255, 0.584);
+        }
+        a.artigo{
+            
+            color: rgb(255, 255, 255);
+            font-size: ;
+            padding-left: 30px;
+            font-weight: 200;
+        }
+        main{
+            max-width: 800px;
+            margin: auto;
+        }
+        table{
+            padding-top: 50px;
+            border-collapse:collapse;
+            width:380px;
+            margin: auto;
+        }
+        td{
+            border: 1px solid black;
+            height: 60px;
+            text-align: center;
+        }
+        thead{
+            background-color: #ced0d4;
+            font-size: 1.5em;
+            vertical-align: top;
+        }
+        tbody{
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>estados com maior população</h1>
+        <p>Lista de unidades federativas do Brasil por população</p>
+    </header>
+    
+    <nav>
+        <hr>
+        <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank">fonte</a>
+        <a href="#" target="_blank" class="artigo">artigo</a>
+        <hr>
+    </nav>
+   
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <td>estados</td>
+                    <td>população</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td>41 262 199</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>19 597 330</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>15 989 929</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
